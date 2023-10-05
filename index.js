@@ -15,6 +15,7 @@ const port = process.env.PORT || 8000
 const corsOptions = {
    origin: true,
    credentials: true
+   
 }
 
 mongoose.set("strictQuery", false)
