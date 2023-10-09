@@ -8,7 +8,7 @@ import userRoute from './routes/users.js'
 import authRoute from './routes/auth.js'
 import reviewRoute from './routes/reviews.js'
 import bookingRoute from './routes/bookings.js'
-
+const BASE_URL = process.env.BASE_URL
 dotenv.config()
 const app = express()
 const port = process.env.PORT || 8000
